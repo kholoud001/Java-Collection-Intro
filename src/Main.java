@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -5,51 +7,22 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        String nomPatient= "Jean Dupont";
-        //System.out.printf(nomPatient);
+//  1. Write a Java program to create an array list, add some colors (strings) and print out the collection.
 
-        String nomMedecin1=  "Dr. House";
-        String nomMedecin2=  "Dr. House";
-
-
-        // Boolean
-//        if(nomMedecin1.equals(nomMedecin2)){
-//            System.out.println("Les médecins en le même nom");
-//        }else {
-//            System.out.println("les médecins sont différent ");
-//        }
-//        if(nomMedecin1 == nomMedecin2){
-//            System.out.println("Les médecins en la même réference");
-//        }else {
-//            System.out.println("les médecins ont une référence différente ");
-//        }
-
-        //System.out.println("Référence de nomMedecin1 : " + System.identityHashCode(nomMedecin1));
-        //System.out.println("Référence de nomMedecin2 : " + System.identityHashCode(nomMedecin2));
-
-        //Compare to (0 if equals / > 0 if a>b/ < 0 if a<b)
-        //System.out.println(nomMedecin1.compareTo(nomMedecin2));
-
-        //concat
-//        String s= nomMedecin1.concat("is a cardiologist");
-//        System.out.println(s);
-
-        //contains (bool)
-        //System.out.println(nomMedecin1.contains("Dr"));
-
-//        StringBuilder stringBuilder = new StringBuilder();
-//        stringBuilder.append(nomPatient);
-//        System.out.println(stringBuilder);
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a string: ");
-        String input = scanner.nextLine();
-
-        StringBuilder builder = new StringBuilder(input);
-       // builder.reverse();
-        builder.append(" world!");
-        System.out.println(builder.toString());
-
-
+        List<String> colors = new ArrayList<String>();
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter colors number: ");
+        String number = in.nextLine();
+        for(int i=0; i<=number.length(); i++){
+            System.out.println("Enter colors: ");
+            String color = in.nextLine();
+            colors.add(color);
+        }
+        in.close();
+        System.out.println("The colors are: ");
+        for(String color : colors){
+            System.out.println(color);
+        }
 
 
 
