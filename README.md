@@ -10,8 +10,7 @@ This repository contains an overview of the basic Java Collection Framework inte
 - [Set](#set)
 - [Map](#map)
 - [Stream API](#stream-api)
-- [Installation](#installation)
-- [Usage](#usage)
+
 
 ---
 
@@ -77,8 +76,3 @@ Stream operations are divided into:
 
 ---
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/collections-streams-java.git
