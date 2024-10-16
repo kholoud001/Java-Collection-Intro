@@ -10,6 +10,7 @@ This repository contains an overview of the basic Java Collection Framework inte
 - [Set](#set)
 - [Map](#map)
 - [Stream API](#stream-api)
+- - [Hierarchy of Collection Framework](#hierarchy-of-collection-framework)
 
 
 ---
@@ -75,4 +76,12 @@ Stream operations are divided into:
 - **Terminal operations** (e.g., `collect`, `forEach`) that produce a result or a side-effect and terminate the stream pipeline.
 
 ---
+
+## Hierarchy of Collection Framework
+
+Here is an illustration of the Java Collection Framework hierarchy:
+
+![Hierarchy of Collection Framework](assets/collection-hierarchy.png)
+
+The diagram shows the structure of key interfaces and classes in the Collection Framework, including `List`, `Set`, `Queue`, `Map`, and their implementations.
 
