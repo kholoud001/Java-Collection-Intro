@@ -10,7 +10,7 @@ This repository contains an overview of the basic Java Collection Framework inte
 - [Set](#set)
 - [Map](#map)
 - [Stream API](#stream-api)
-- - [Hierarchy of Collection Framework](#hierarchy-of-collection-framework)
+- [Hierarchy of Collection Framework](#hierarchy-of-collection-framework)
 
 
 ---
@@ -81,7 +81,7 @@ Stream operations are divided into:
 
 Here is an illustration of the Java Collection Framework hierarchy:
 
-![Hierarchy of Collection Framework](assets/collection-hierarchy.png)
+![Hierarchy of Collection Framework](java-collection-hierarchy.png)
 
 The diagram shows the structure of key interfaces and classes in the Collection Framework, including `List`, `Set`, `Queue`, `Map`, and their implementations.
 
